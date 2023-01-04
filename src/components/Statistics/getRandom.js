@@ -5,3 +5,5 @@ function getRandomHexColor() {
 }
 
 export default getRandomHexColor;
+
+// random
