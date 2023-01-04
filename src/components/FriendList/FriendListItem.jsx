@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 
 const FriendListItem = ({ id, avatar, name, isOnline }) => {
   return (
-    <li key={id} className={css.item}>
+    <li className={css.item}>
       <span className={isOnline ? css.statusOn : css.statusOff}>
         {isOnline}
         <VscCircleLargeFilled />
